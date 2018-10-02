@@ -7,6 +7,7 @@ arrow_head_width = int(input('Enter arrow head width:\n'))
 while(arrow_head_width <= arrow_base_width):
     arrow_head_width = int(input('Enter arrow head width:'))
 print()
+
 for x in range(arrow_base_width):
     for y in range(arrow_base_width):
         print('*', end='')
