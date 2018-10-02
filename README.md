@@ -11,6 +11,7 @@ for x in range(arrow_base_width):
     for y in range(arrow_base_width):
         print('*', end='')
     print('')
+
 for x in range(arrow_head_width):
     for y in range(arrow_head_width - x):
         print('*', end='')
